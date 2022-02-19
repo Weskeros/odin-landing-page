@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero {
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
