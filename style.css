@@ -67,3 +67,22 @@ h2 {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+.signup {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    width: 75%;
+    padding: 0 25px;
+}
+
+.buttonbox {
+    display: flex;
+    align-items: center;
+}
