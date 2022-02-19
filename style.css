@@ -37,11 +37,33 @@ h2 {
     flex-direction: column;
     background-color: whitesmoke;
     gap: 10px;
+    align-items: center;
+    padding: 40px;
 }
 
 .blocks {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
-    gap: 10px;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.quotebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 40px;
+}
+
+.quote {
+    width: 75%;
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
